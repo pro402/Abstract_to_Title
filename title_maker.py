@@ -6,7 +6,6 @@ from peft import PeftModel
 from huggingface_hub import login
 
 # Log in to Hugging Face
-hf_read_access_key = os.getenv('HF_READ_ACCESS_KEY')
 login(hf_read_access_key)
 
 # Load the tokenizer
