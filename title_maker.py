@@ -8,14 +8,14 @@ from huggingface_hub import login
 login(hf_read_access_key)
 
 # Load the tokenizer
-tokenizer = AutoTokenizer.from_pretrained(r"C:\Users\PRASUN MAITY\Desktop\LLM_title_maker\llama_1B_lora_finetuned")
+tokenizer = AutoTokenizer.from_pretrained("Prasun21/Abstract-to-title")
 
 # Load the base LLaMA model from Hugging Face
 base_model_path = "meta-llama/Llama-3.2-1B"  # Update to the model's Hugging Face ID
 base_model = AutoModelForCausalLM.from_pretrained(base_model_path)
 
 # Load the LoRA fine-tuned model
-model = PeftModel.from_pretrained(base_model, r"C:\Users\PRASUN MAITY\Desktop\LLM_title_maker\llama_1B_lora_finetuned")
+model = PeftModel.from_pretrained(base_model, "Prasun21/Abstract-to-title")
 
 def generate_title(abstract, temperature, top_k, top_p):
     prompt_template = f"Generate a short title by reading the following abstract:\n\nAbstract: {abstract}\n\nTitle: "
