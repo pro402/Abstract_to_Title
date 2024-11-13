@@ -87,3 +87,12 @@ The fine-tuned model shows promising results in generating titles that are conte
 - [Meta AI's Llama model](https://www.llama.com/) and its [Hugging Face page for Llama 3.2-1B](https://huggingface.co/meta-llama/Llama-3.2-1B) for providing the foundational pre-trained language model used in this project.
 - Hugging Face for their Trainer API, which simplifies model training and deployment.
 - LoRA quantization technique for memory-efficient training.
+
+- For the [DATASET](https://huggingface.co/datasets/neuralwork/arxiver)
+  @misc{acar_arxiver2024,
+  author = {Alican Acar, Alara Dirik, Muhammet Hatipoglu},
+  title = {ArXiver},
+  year = {2024},
+  publisher = {Hugging Face},
+  howpublished = {\url{https://huggingface.co/datasets/neuralwork/arxiver}}
+}
