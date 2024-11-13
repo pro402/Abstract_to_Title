@@ -89,10 +89,12 @@ The fine-tuned model shows promising results in generating titles that are conte
 - LoRA quantization technique for memory-efficient training.
 
 - For the [DATASET](https://huggingface.co/datasets/neuralwork/arxiver)
+  ```
   @misc{acar_arxiver2024,
-  author = {Alican Acar, Alara Dirik, Muhammet Hatipoglu},
-  title = {ArXiver},
-  year = {2024},
-  publisher = {Hugging Face},
-  howpublished = {\url{https://huggingface.co/datasets/neuralwork/arxiver}}
-}
+     author = {Alican Acar, Alara Dirik, Muhammet Hatipoglu},
+     title = {ArXiver},
+     year = {2024},
+     publisher = {Hugging Face},
+     howpublished = {\url{https://huggingface.co/datasets/neuralwork/arxiver}}
+  }
+  ```
